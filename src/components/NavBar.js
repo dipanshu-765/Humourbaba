@@ -23,19 +23,19 @@ class NavBar extends React.Component{
                         </p>
                 </div>
                 <h4 id="brand-name">
-                    <a href="#">Humourbaba</a>
+                    <a href="https://imgur.com/HsmHV6i">Humourbaba</a>
                 </h4>
                 <p id="menu">
-                    <a href="#">Shop</a>
-                    <a href="#">Themes</a>
-                    <a href="#">Offers</a>
-                    <a href="#">Spotlight</a>
+                    <a href="https://imgur.com/HsmHV6i">Shop</a>
+                    <a href="https://imgur.com/HsmHV6i">Themes</a>
+                    <a href="https://imgur.com/HsmHV6i">Offers</a>
+                    <a href="https://imgur.com/HsmHV6i">Spotlight</a>
                     <Searchbar onSubmit={this.onSearchSubmit}></Searchbar>
                     <Popup modal trigger={<button id="login-button">Log In/Sign Up</button>}>
                         {close => <Content close={close} />}
                     </Popup>
                 </p>
-                <img id="bg-img" src="offer.jpg">
+                <img id="bg-img" src="offer.jpg" alt="offer img">
 
                 </img>
             </div>

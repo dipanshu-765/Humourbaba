@@ -13,7 +13,7 @@ class App extends React.Component{
     };
 
     goToPrevSlide = current => {
-        if(current[0]==1){
+        if(current[0]===1){
             current[0]=1;
         }
         else{
@@ -25,7 +25,7 @@ class App extends React.Component{
     }
 
     goToNextSlide = current => {
-        if(current[0]==10){
+        if(current[0]===10){
             current[0]=10;
         }
         else{
