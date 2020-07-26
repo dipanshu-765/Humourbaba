@@ -35,7 +35,7 @@ class NavBar extends React.Component{
                         {close => <Content close={close} />}
                     </Popup>
                 </p>
-                <img id="bg-img" src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/25/15f0ea41-02f0-4b81-ac21-f3bfeb8d617e1595682003225-Dk.jpg">
+                <img id="bg-img" src="offer.jpg">
 
                 </img>
             </div>
