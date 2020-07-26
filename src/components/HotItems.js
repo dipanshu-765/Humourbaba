@@ -11,8 +11,7 @@ class HotItems extends React.Component{
             "photo5.jpg",
             "photo6.jpg",
             "photo7.jpg",
-            "photo8.jpg",
-            "photo9.jpg"
+            "photo8.jpg"
         ]
     }
     render(){
@@ -22,13 +21,13 @@ class HotItems extends React.Component{
                     HOT-SELLING ITEMS
                 </h4>
                 <div className="hot-item">
-                    <img src={this.state.images[this.props.currentImages[0]]} alt="hot-1"></img>
+                    <img src={this.state.images[this.props.currentImages[0]]} alt="image-1"></img>
                 </div>
                 <div className="hot-item">
-                    <img src={this.state.images[this.props.currentImages[1]]} alt="hot-2"></img>
+                    <img src={this.state.images[this.props.currentImages[1]]} alt="image-2"></img>
                 </div>
                 <div className="hot-item">
-                    <img src={this.state.images[this.props.currentImages[2]]} alt="hot-3"></img>
+                    <img src={this.state.images[this.props.currentImages[2]]} alt="image-3"></img>
                 </div>
             </div>
             )

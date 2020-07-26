@@ -25,7 +25,7 @@ class App extends React.Component{
     }
 
     goToNextSlide = () => {
-        if(this.state.current_img_id[2]===9){
+        if(this.state.current_img_id[2]===8){
             console.log("No More items");
         }
         else{
