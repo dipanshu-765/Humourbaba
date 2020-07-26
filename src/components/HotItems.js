@@ -21,13 +21,13 @@ class HotItems extends React.Component{
                     HOT-SELLING ITEMS
                 </h4>
                 <div className="hot-item">
-                    <img src={this.state.images[this.props.currentImages[0]]} alt="image-1"></img>
+                    <img src={this.state.images[this.props.currentImages[0]]} alt="Hot Item 1"></img>
                 </div>
                 <div className="hot-item">
-                    <img src={this.state.images[this.props.currentImages[1]]} alt="image-2"></img>
+                    <img src={this.state.images[this.props.currentImages[1]]} alt="Hot Item 2"></img>
                 </div>
                 <div className="hot-item">
-                    <img src={this.state.images[this.props.currentImages[2]]} alt="image-3"></img>
+                    <img src={this.state.images[this.props.currentImages[2]]} alt="Hot Item 3"></img>
                 </div>
             </div>
             )
