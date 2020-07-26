@@ -23,15 +23,15 @@ class NavBar extends React.Component{
                         </p>
                 </div>
                 <h4 id="brand-name">
-                    <a href="https://imgur.com/HsmHV6i">Humourbaba</a>
+                    <a href="https://www.linkedin.com/in/deepanshu-saini-197634193/">Humourbaba</a>
                 </h4>
                 <p id="menu">
-                    <a href="https://imgur.com/HsmHV6i">Shop</a>
-                    <a href="https://imgur.com/HsmHV6i">Themes</a>
-                    <a href="https://imgur.com/HsmHV6i">Offers</a>
-                    <a href="https://imgur.com/HsmHV6i">Spotlight</a>
+                    <a href="https://www.linkedin.com/in/deepanshu-saini-197634193/">Shop</a>
+                    <a href="https://www.linkedin.com/in/deepanshu-saini-197634193/">Themes</a>
+                    <a href="https://www.linkedin.com/in/deepanshu-saini-197634193/">Offers</a>
+                    <a href="https://www.linkedin.com/in/deepanshu-saini-197634193/">Spotlight</a>
                     <Searchbar onSubmit={this.onSearchSubmit}></Searchbar>
-                    <Popup modal trigger={<button id="login-button">Log In/Sign Up</button>}>
+                    <Popup modal trigger={<button id="login-button">Log In</button>}>
                         {close => <Content close={close} />}
                     </Popup>
                 </p>

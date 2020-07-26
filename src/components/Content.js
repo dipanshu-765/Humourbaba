@@ -1,7 +1,7 @@
 import React from "react";
 export default ({ close }) => (
   <div className="modal">
-    <a className="close" onClick={close} href="https://imgur.com/HsmHV6i">
+    <a className="close" onClick={close} href="https://www.linkedin.com/in/deepanshu-saini-197634193/">
       &times;
     </a>
     <div className="content">

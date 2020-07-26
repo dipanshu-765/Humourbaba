@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from './NavBar.js';
+import Caraousel from './Caraousel';
 import Footer from './Footer.js';
 import Arrows from './Arrows.js';
 import HotItems from './HotItems';
@@ -11,27 +12,29 @@ class App extends React.Component{
         current_img_id: [1, 2, 3]
     };
 
-    goToPrevSlide = current => {
-        if(current[0]===1){
-            current[0]=1;
+    goToPrevSlide = () => {
+        if(this.state.current_img_id[0]===1){
+            console.log("Can't go back");
         }
         else{
-            current[0] = current[0]-3;
-            current[1] = current[1]-3;
-            current[2] = current[2]-3;
-            this.setState({current_img_id:current});
+            let temp = this.state.current_img_id;
+            temp[0] = temp[0]-1;
+            temp[1] = temp[1]-1;
+            temp[2] = temp[2]-1;
+            this.setState({current_img_id:temp});
         }
     }
 
-    goToNextSlide = current => {
-        if(current[0]===10){
-            current[0]=10;
+    goToNextSlide = () => {
+        if(this.state.current_img_id[2]===9){
+            console.log("No More items");
         }
         else{
-            current[0] = current[0]+3;
-            current[1] = current[1]+3;
-            current[2] = current[2]+3;
-            this.setState({current_img_id:current});
+            let temp = this.state.current_img_id;
+            temp[0] = temp[0]+1;
+            temp[1] = temp[1]+1;
+            temp[2] = temp[2]+1;
+            this.setState({current_img_id:temp});
         }
     }
 
