@@ -1,0 +1,32 @@
+#main-footer{
+    background-color: black;
+}
+#footer-logo-text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 36px;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+    padding-left: 3vw;
+}
+#footer{
+    background-color: #313131;
+    margin-top: 40vh;
+}
+#footer-logo{
+    background-color: black;
+}
+@media only screen and (min-width: 900px){
+    #footer-logo-text{
+        font-size: 72px;
+    }
+    ul h5{
+        display: inline-block;
+    }
+    li a{
+        padding-left: 10vw;
+    }
+    #footer-logo{
+        height: 40vh;
+    }
+}

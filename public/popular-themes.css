@@ -1,0 +1,15 @@
+#theme1, #theme2{
+    display: inline-block;
+    width: 40vw;
+    height: 30vh;
+    background-color: #aaaaaa;
+}
+#theme1{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+#popular-themes-text{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: x-large;
+}

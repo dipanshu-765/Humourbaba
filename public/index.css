@@ -1,0 +1,90 @@
+.modal {
+  font-size: 12px;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modal > .actions {
+  margin: auto;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+
+#login-heading{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: x-large;
+  margin-bottom: 10vh;
+}
+
+#login-password, #login-username{
+  width: 25vw;
+}
+
+#login-form{
+  padding-bottom: 20vh;
+}
+
+#login-button{
+  border: none;
+  color: black;
+  padding: 2.4vh 3vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 8px;
+}
+
+#no-account-text{
+  margin-top: 5vh;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#login{
+  border: none;
+  color: black;
+  padding: 2.4vh 10vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 5vw;
+}
+
+@media only screen and (min-width: 900px){
+  #login-form{
+    padding-bottom: 5vh;
+  }
+  #login-button{
+    font-size: 16px;
+    padding: 1.5vh;
+  }
+  #login{
+    margin-left: 12vw;
+  }
+}

@@ -1,0 +1,12 @@
+.arrows{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.backArrow{
+    float: left;
+    width: 5vw;
+}
+.forwardArrow{
+    width: 5vw;
+    float: right;
+}

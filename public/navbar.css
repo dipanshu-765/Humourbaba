@@ -1,0 +1,81 @@
+#contact{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background-color: #ff7357;
+}
+#header{
+	background:white;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1) ;
+	width:100%;
+}
+#fact{
+    width: 65vw;
+    display: inline-block;
+}
+#contact-details{
+    display: inline-block;
+    margin-right: 2vw;
+}
+#track{
+    display: inline-block;
+    width: max-content;
+}
+#contact p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+}
+#header a{
+    text-decoration: none;
+    color: #1b1b1b;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.material-icons.md-36{
+    font-size: 36px;
+}
+#brand-name{
+    text-align: center;
+    font-size: xx-large;
+}
+#menu{
+    display: inline-block;
+}
+#bg-img{
+    width: 98vw;
+}
+.searchbar{
+    display: inline-block;
+}
+.popup-button{
+    display: inline-block;
+}
+#header p{
+    font-size: small;
+}
+input{
+    height: 5vh;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 5vw;
+    width: 20vw;
+    padding-left: 2vw;
+}
+@media only screen and (min-width: 900px){
+    input{
+        margin-left: 10vw;
+    }
+    #fact{
+        width: 80vw;
+    }
+    #contact p{
+        font-size: smaller;
+    }
+    #brand-name{
+        font-size: large;
+        display: inline-block;
+        text-align: left;
+        margin-right: 10vw;
+    }
+}
