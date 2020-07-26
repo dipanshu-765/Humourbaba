@@ -62,12 +62,16 @@ input{
     width: 20vw;
     padding-left: 2vw;
 }
+#fact{
+    display: none;
+}
 @media only screen and (min-width: 900px){
     input{
         margin-left: 10vw;
     }
     #fact{
         width: 80vw;
+        display: inline-block;
     }
     #contact p{
         font-size: smaller;
