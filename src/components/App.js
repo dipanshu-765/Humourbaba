@@ -1,6 +1,5 @@
 import React from 'react';
 import NavBar from './NavBar.js';
-import Caraousel from './Caraousel';
 import Footer from './Footer.js';
 import Arrows from './Arrows.js';
 import HotItems from './HotItems';
