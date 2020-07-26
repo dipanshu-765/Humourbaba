@@ -11,6 +11,9 @@
     height: 20vh;
     background-color: #aaaaaa;
 }
+.hot-item img{
+    width:100%;
+}
 .hot-items{
     padding-left: 2vw;
 }

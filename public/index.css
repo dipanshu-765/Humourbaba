@@ -1,3 +1,14 @@
+::-webkit-scrollbar { 
+	border-radius:10px; 
+	width: 5px;
+}
+::-webkit-scrollbar-track {
+	background: #ffffff; 
+}
+::-webkit-scrollbar-thumb {
+	background:#ff7357;
+	border-radius:5px; 
+}
 .modal {
   font-size: 12px;
 }

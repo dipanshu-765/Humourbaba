@@ -1,32 +1,37 @@
-#main-footer{
-    background-color: black;
-}
 #footer-logo-text{
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: #313131;
     font-size: 36px;
     padding-top: 5vh;
     padding-bottom: 3vh;
     padding-left: 3vw;
 }
 #footer{
-    background-color: #313131;
     margin-top: 40vh;
+    background-color: #ededed;
+}
+#footer a{
+    text-decoration: none;
+    color: #313131;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 3vw;
+}
+#footer h4{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 3vw;
 }
 #footer-logo{
-    background-color: black;
+    background-color: #ededed;
 }
 @media only screen and (min-width: 900px){
     #footer-logo-text{
         font-size: 72px;
     }
-    ul h5{
-        display: inline-block;
-    }
-    li a{
-        padding-left: 10vw;
-    }
     #footer-logo{
-        height: 40vh;
+        height: 30vh;
+    }
+    #get-to-know-us, #connect-with-us, #customer-service, #shipping-partnerss{
+        display: inline-block;
+        padding-bottom: 5vh;
     }
 }
