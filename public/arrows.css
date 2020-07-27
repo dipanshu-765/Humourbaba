@@ -5,8 +5,17 @@
 .backArrow{
     float: left;
     width: 5vw;
+    border: none;
+  color: black;
+  padding: 2.4vh 3vw;
+  text-align: center;
 }
 .forwardArrow{
     width: 5vw;
     float: right;
+    border: none;
+  color: black;
+  padding: 2.4vh 3vw;
+  text-align: center;
+  text-decoration: none;
 }

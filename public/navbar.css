@@ -16,11 +16,6 @@
     display: inline-block;
     margin-right: 2vw;
 }
-@media only screen and (max-width:900px){
-     #contact-details{
-	margin-left: 55vw;
-     }
-}
 #track{
     display: inline-block;
     width: max-content;
@@ -67,15 +62,20 @@ input{
     width: 20vw;
     padding-left: 2vw;
 }
-#fact{
-    display: none;
+@media only screen and (max-width: 800px){
+    #fact{
+        display: none;
+    }
+    #contact-details{
+        margin-left:60vw;
+    }
 }
-@media only screen and (min-width: 900px){
+@media only screen and (min-width: 800px){
     input{
         margin-left: 10vw;
     }
     #fact{
-        width: 80vw;
+        width: 70vw;
         display: inline-block;
     }
     #contact p{

@@ -1,3 +1,8 @@
+.hot-items{
+    margin-top: 10vh;
+    padding-left: 2vw;
+    margin-left: 2vw;
+}
 #hot-items-text{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -8,11 +13,13 @@
     margin-left: 2vw;
     display: inline-block;
     width: 26vw;
-    height: 20vh;
+    height: 30vh;
 }
 .hot-item img{
     width:100%;
 }
-.hot-items{
-    padding-left: 2vw;
+@media only screen and (min-width: 900px){
+    .hot-item{
+        height: 20vh;
+    }
 }

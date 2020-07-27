@@ -7,7 +7,7 @@
     padding-left: 3vw;
 }
 #footer{
-    margin-top: 40vh;
+    margin-top: 15vh;
     background-color: #ededed;
 }
 #footer a{
@@ -24,6 +24,9 @@
     background-color: #ededed;
 }
 @media only screen and (min-width: 900px){
+    #footer{
+        margin-top: 40vh;
+    }
     #footer-logo-text{
         font-size: 72px;
     }
