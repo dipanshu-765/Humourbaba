@@ -1,6 +1,5 @@
 #theme1, #theme2{
     width: 80vw;
-    height: 60vh;
 }
 @media only screen and (max-width: 900px){
     #theme1, #theme2{
