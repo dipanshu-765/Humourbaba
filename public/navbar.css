@@ -15,7 +15,7 @@
 #contact-details{
     display: inline-block;
     margin-right: 2vw;
-    margin-left:40vw;
+    margin-left:45vw;
 }
 #track{
     display: inline-block;
@@ -76,6 +76,9 @@ input{
     }
     #contact p{
         font-size: smaller;
+    }
+    #contact-details{
+	margin-left: 0vw;
     }
     #brand-name{
         font-size: large;
