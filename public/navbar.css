@@ -15,7 +15,11 @@
 #contact-details{
     display: inline-block;
     margin-right: 2vw;
-    margin-left:45vw;
+}
+@media only screen and (max-width:900px){
+     #contact-details{
+	margin-left: 50vw;
+     }
 }
 #track{
     display: inline-block;
@@ -76,9 +80,6 @@ input{
     }
     #contact p{
         font-size: smaller;
-    }
-    #contact-details{
-	margin-left: 0vw;
     }
     #brand-name{
         font-size: large;
